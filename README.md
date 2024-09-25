@@ -16,7 +16,7 @@ en Windows con PowerShell
 
 ``.\venv\cpx-collider\Scripts\activate``
 
-y en Windos con Git Bash
+y en Windows con Git Bash
 
 ``source cpx-collider-venv/bin/activate``
 
