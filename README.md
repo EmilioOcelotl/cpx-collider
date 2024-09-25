@@ -6,15 +6,19 @@ Conexión entre Circuit Playground Express (CPX) y SuperCollider. Envío de info
 
 Para todos los ejemplos y casos es necesario generar un entorno virtual. Con python3 y una terminal
 
-``python3 -m venv cpx-collider``
+``python3 -m venv cpx-collider-venv``
 
 En macOS/Linux es necesario activar el entorno virtual
 
-``source cpx-collider/bin/activate``
+``source cpx-collider-venv/bin/activate``
 
-en Windows
+en Windows con PowerShell
 
-``cpx\Scripts\activate``
+``.\venv\cpx-collider\Scripts\activate``
+
+y en Windos con Git Bash
+
+``source cpx-collider-venv/bin/activate``
 
 Después es posible instalar la librería python-osc 
 
@@ -26,7 +30,7 @@ También es necesario instalar pyserial
 
 ## Circuit Python 
 
-La placa CPX puede ejecutar Circuit Python. El editor Mu puede ser un punto de partida incial. 
+Es posible [instalar Circuit Python](https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-quickstart) en la CPX. [Code with Mu](https://codewith.mu/) es un editor funcional para escribir programas en Circuit Python y leer valores.
 
 ## Ejemplo básico
 
