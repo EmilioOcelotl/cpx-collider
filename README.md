@@ -34,6 +34,6 @@ Es posible [instalar Circuit Python](https://learn.adafruit.com/adafruit-circuit
 
 ## Ejemplo básico
 
-Ejemplo básico para enviar información del tacto capacitivo 
+Ejemplo básico para enviar información del tacto capacitivo a SuperCollider. 
 
 [CPX](./basic/basic-cpx.py) > [Computadora](./basic/basic-computer.py) > [SuperCollider](./basic/basic-sc.scd)
