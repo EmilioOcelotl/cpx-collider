@@ -14,7 +14,7 @@ def send_to_cpx(values):
 
 # Función para manejar mensajes OSC
 def osc_handler(unused_addr, *args):
-    # Asume que args contiene tantos valores como LEDs a controlar
+    # Asume que args contiene los valores RGB para los LEDs (tres por LED)
     values = list(args)
     print(f"Recibido OSC: {values}")
     send_to_cpx(values)
