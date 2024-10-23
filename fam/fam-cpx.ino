@@ -1,5 +1,5 @@
 #include <Adafruit_NeoPixel.h>
-#define PIN            17   // Pin para la tira de NeoPixels
+#define PIN            A1   // Pin para la tira de NeoPixels
 #define NUMPIXELS      45   // Número de LEDs en la tira
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 

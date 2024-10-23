@@ -6,19 +6,19 @@ Conexión entre Circuit Playground Express (CPX) y SuperCollider. Envío de info
 
 Para todos los ejemplos y casos es necesario generar un entorno virtual. Con python3 y una terminal
 
-``python3 -m venv cpx-collider-venv``
+``python3 -m venv nombre-venv``
 
 En macOS/Linux es necesario activar el entorno virtual
 
-``source cpx-collider-venv/bin/activate``
+``source nombre-venv/bin/activate``
 
 en Windows con PowerShell
 
-``.\venv\cpx-collider\Scripts\activate``
+``.\nombre-venv\nombre\Scripts\activate``
 
 y en Windows con Git Bash
 
-``source cpx-collider-venv/bin/activate``
+``source nombre-venv/bin/activate``
 
 Después es posible instalar la librería python-osc 
 
@@ -37,3 +37,6 @@ Es posible [instalar Circuit Python](https://learn.adafruit.com/adafruit-circuit
 Ejemplo básico para enviar información del tacto capacitivo a SuperCollider. 
 
 [CPX](./basic/basic-cpx.py) > [Computadora](./basic/basic-computer.py) > [SuperCollider](./basic/basic-sc.scd)
+
+## FAM 
+
