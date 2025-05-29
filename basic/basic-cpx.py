@@ -11,4 +11,4 @@ while True:
     # Leer el valor crudo del sensor capacitivo
     touch_value = touch_pin.raw_value
     print(touch_value)  # Enviar el valor por el puerto serial
-    time.sleep(0.1)
+ time.sleep(0.1)
